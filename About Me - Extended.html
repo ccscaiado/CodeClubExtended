@@ -1,0 +1,183 @@
+
+<!-- saved from url=(0071)file:///D:/Repositories/build/python/lessons/About%20Me/About%20Me.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>About Me - Extended | Kodeklubben</title><link href="file:///D:/Repositories/build/assets/style.min.css" rel="stylesheet"><script type="text/javascript">// convert url relative to current file
+// ex: python/index.html -> ../python/index.html
+function relative (url) {
+  var urlRoot = '../../..';
+  if (urlRoot !== '') {
+    return urlRoot + '/' + url;
+  }
+  return url;
+}</script><style><![CDATA[.sb-label{font-family:Lucida Grande,Verdana,Arial,DejaVu Sans,sans-serif;font-weight:700;fill:#fff;font-size:10px;word-spacing:+1px}.sb-obsolete{fill:#d42828}.sb-motion{fill:#4a6cd4}.sb-looks{fill:#8a55d7}.sb-sound{fill:#bb42c3}.sb-pen{fill:#0e9a6c}.sb-events{fill:#c88330}.sb-control{fill:#e1a91a}.sb-sensing{fill:#2ca5e2}.sb-operators{fill:#5cb712}.sb-variables{fill:#ee7d16}.sb-list{fill:#cc5b22}.sb-custom{fill:#632d99}.sb-custom-arg{fill:#5947b1}.sb-extension{fill:#4b4a60}.sb-grey{fill:#969696}.sb-bevel{filter:url(#bevelFilter)}.sb-input{filter:url(#inputBevelFilter)}.sb-input-number,.sb-input-number-dropdown,.sb-input-string{fill:#fff}.sb-literal-dropdown,.sb-literal-number,.sb-literal-number-dropdown,.sb-literal-string{font-weight:400;font-size:9px;word-spacing:0}.sb-literal-number,.sb-literal-number-dropdown,.sb-literal-string{fill:#000}.sb-darker{filter:url(#inputDarkFilter)}.sb-outline{stroke:#fff;stroke-opacity:.2;stroke-width:2;fill:none}.sb-define-hat-cap{stroke:#632d99;stroke-width:1;fill:#8e2ec2}.sb-comment{fill:#ffffa5;stroke:#d0d1d2;stroke-width:1}.sb-comment-line{fill:#ffff80}.sb-comment-label{font-family:Helevetica,Arial,DejaVu Sans,sans-serif;font-weight:700;fill:#5c5d5f;word-spacing:0;font-size:12px}]]></style></head><body><div class="container"><div class="row"><div class="col-xs-12"><header class="clearfix"><h1 class="title">About Me - Extended</h1><div class="lesson-icons"></div></header></div><div class="col-xs-12"><div class="content"><section class="intro" id="introduction">
+<h1 class="intro" id="introduction">Introduction </h1>
+<p>In this project you will learn how to write a Python program. We will see:</p>
+<ul>
+<li>the <strong>print</strong> function - useful for troubleshooting and user interaction</li>
+<li>how Python handles text, special characters (e.g. quotation marks), and text that span multiple lines</li>
+<li>the <strong>input</strong> function - a function that prompts a user for input</li>
+<li>the concept of a variable and how it can be used to hold information</li>
+<li>the <strong>int</strong> method - used to convert a number or string into a whole number</li>
+<li>how to perform a few basic operations on numbers and strings/text</li>
+</ul>
+<p>We also want you to get familiar with the idea of handling errors and troubleshooting. No one writes perfect code. You should expect quite a few error messages, there are mistakes intentionally inserted in this worksheet.</p>
+<p>We will use Trinket, a web-based environment for coding.</p>
+<p><strong>Why Trinket?</strong> It is simple to use, it doesn't require any software installation, you can easily save and share your projects. Later on we will want to look at alternatives and that will depend on which direction you wish to push your projects.</p>
+<p><strong>Compatibility:</strong> It works in almost any browser including IE and Edge, and mobile browsers (Android and Apple).</p>
+<p><strong>Do I need a Trinket account?</strong> No. You can choose to create a free account (no need for premium) to save your projects or you can download files/save a link for later.</p>
+<p><strong>Do I have to use Trinket?</strong> No. There are other websites with similar environments or you can use the local installation in the CIS computers. If using the local installation, look for a Python 3 installation in the AppHub (ask a mentor for help).</p>
+</section>
+<section class="activity" id="step-1-saying-hello">
+<h1 class="activity" id="step-1-saying-hello">Step 1: Saying hello</h1>
+<p>Let's start by writing some text.</p>
+<section class="check" id="activity-checklist">
+<h2 class="check" id="activity-checklist">Activity Checklist</h2>
+<ul>
+<li>Open the blank Python template Trinket: <a href="http://jumpto.cc/python-new" target="_blank">jumpto.cc/python-new</a> or start a new Python trinket from your account. If you're reading this online, you can also use the embedded version of this trinket below.</li>
+</ul>
+<div class="trinket">
+<iframe src="./About Me - Extended_files/33e5c3b81b.html" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen=""></iframe>
+</div>
+<ul>
+<li>
+<p>Type the following into the window that appears:</p>
+<p></p><figure><img src="file:///D:/Repositories/build/python/lessons/About%20Me/me-hi.png" alt="screenshot"></figure><p></p>
+<p>The line <code>#!/bin/python3</code> just tells Trinket that we're using Python 3 (the latest version).</p>
+</li>
+<li>
+<p>Press 'run', and you should see that the <code>print()</code> command prints everything between the quote marks <code>''</code>.</p>
+<p></p><figure><img src="file:///D:/Repositories/build/python/lessons/About%20Me/me-hi-test.png" alt="screenshot"></figure><p></p>
+</li>
+<li>
+<p>If you make a mistake, you'll get an error message instead - telling you what went wrong!</p>
+<p>Try it! Delete the end quote <code>'</code> or the closing bracket <code>)</code> (or both) and see what happens.</p>
+<p></p><figure><img src="file:///D:/Repositories/build/python/lessons/About%20Me/me-syntax.png" alt="screenshot"></figure><p></p>
+</li>
+<li>
+<p>Replace the quote or bracket and click 'run' to make sure your project works again.</p>
+</li>
+</ul>
+</section>
+<section class="save" id="save-your-project">
+<h2 class="save" id="save-your-project">Save Your Project</h2>
+<p><strong>You don't need a Trinket account to save your projects!</strong></p>
+<p>If you don't have a Trinket account, click the down arrow and then click 'Link'. This will give you a link that you can save and come back to later. You'll need to do this every time you make changes, as the link will change!</p>
+<p></p><figure><img src="file:///D:/Repositories/build/python/lessons/About%20Me/me-link.png" alt="screenshot"></figure><p></p>
+<p>If you have a Trinket account, you can click 'remix' to save your own copy of the Trinket.</p>
+<p></p><figure><img src="file:///D:/Repositories/build/python/lessons/About%20Me/me-remix.png" alt="screenshot"></figure><p></p>
+</section>
+<section class="challenge" id="challenge-whats-on-your-mind">
+<h2 class="challenge" id="challenge-whats-on-your-mind">Challenge: What's on your mind?</h2>
+<p>Change the code above, to print something more interesting!</p>
+<p></p><figure><img src="file:///D:/Repositories/build/python/lessons/About%20Me/me-mind.png" alt="screenshot"></figure><p></p>
+</section>
+<section class="save" id="save-your-project-2">
+<h2 class="save" id="save-your-project-2">Save Your Project</h2>
+</section>
+</section>
+<section class="activity" id="step-2-ascii-art">
+<h1 class="activity" id="step-2-ascii-art">Step 2: ASCII art</h1>
+<p>Let’s print something much more fun than text… ASCII art! ASCII art (pronounced '<em>ask-e</em>') is creating <strong>pictures out of text</strong>.</p>
+<section class="check" id="activity-checklist-2">
+<h2 class="check" id="activity-checklist-2">Activity Checklist</h2>
+<ul>
+<li>
+<p>Let's add some art to your program - a picture of a dog!</p>
+<p></p><figure><img src="file:///D:/Repositories/build/python/lessons/About%20Me/me-dog.png" alt="screenshot"></figure><p></p>
+</li>
+<li>
+<p>If you click 'run', you'll see that there's a bug in your new code.</p>
+<p></p><figure><img src="file:///D:/Repositories/build/python/lessons/About%20Me/me-dog-bug.png" alt="screenshot"></figure><p></p>
+<p>That's because your text contains a quote, which Python thinks means the end of the text!</p>
+<p></p><figure><img src="file:///D:/Repositories/build/python/lessons/About%20Me/me-dog-quote.png" alt="screenshot"></figure><p></p>
+</li>
+<li>
+<p>To fix this, just put a backslash <code>\</code> before the quote in the word <code>here's</code>. This tells Python that the quote is part of the text.</p>
+<p></p><figure><img src="file:///D:/Repositories/build/python/lessons/About%20Me/me-dog-bug-fix.png" alt="screenshot"></figure><p></p>
+</li>
+<li>
+<p>If you prefer, you can use 3 quotes <code>'''</code> instead of 1, which allows you to print multiple lines of text with 1 <code>print</code> statement:</p>
+<p></p><figure><img src="file:///D:/Repositories/build/python/lessons/About%20Me/me-dog-triple-quote.png" alt="screenshot"></figure><p></p>
+</li>
+<li>
+<p>If ASCII art isn't your thing, you can also try creating a table:</p>
+<p></p><figure><img src="file:///D:/Repositories/build/python/lessons/About%20Me/me-table.png" alt="screenshot"></figure><p></p>
+</li>
+</ul>
+</section>
+<section class="save" id="save-your-project-3">
+<h2 class="save" id="save-your-project-3">Save Your Project</h2>
+</section>
+<section class="challenge" id="challenge-about-yourself">
+<h2 class="challenge" id="challenge-about-yourself">Challenge: About yourself</h2>
+<p>Write a Python program to tell others about yourself, by using the skills you learned so far. You can create images of your hobbies, a scoreboard, or anything you like!</p>
+<p><strong>Remember that the code you write in Trinket is public. Don't share any personal or sensitive information!</strong></p>
+</section>
+<section class="save" id="save-your-project-4">
+<h2 class="save" id="save-your-project-4">Save Your Project</h2>
+</section>
+</section>
+<section class="activity" id="step-3-the-year-2025">
+<h1 class="activity" id="step-3-the-year-2025">Step 3: The Year 2025</h1>
+<p>You can also do calculations and print numbers. Let's find out how old you'll be in the year 2025.</p>
+<section class="check" id="activity-checklist-3">
+<h2 class="check" id="activity-checklist-3">Activity Checklist</h2>
+<ul>
+<li>
+<p>To calculate how old you'll be in the year 2025, you need to subtract the year you were born from 2025.</p>
+<p>Add this code to your program:</p>
+<p></p><figure><img src="file:///D:/Repositories/build/python/lessons/About%20Me/me-calc.png" alt="screenshot"></figure><p></p>
+<p>Notice that you don't need to put quotes around numbers.</p>
+<p>(You'll need to change the number <code>2006</code> if you were born in a different year.)</p>
+</li>
+<li>
+<p>Click 'run' and your program should print your age in the year 2025.</p>
+</li>
+<li>
+<p>You could improve your program by using <code>input()</code> to ask the user their age and store it in a <strong>variable</strong> called <code>born</code>.</p>
+<p></p><figure><img src="file:///D:/Repositories/build/python/lessons/About%20Me/me-input.png" alt="screenshot"></figure><p></p>
+</li>
+<li>
+<p>Run your program and then enter the year you were born. Did you get another error messgae?</p>
+<p>That's because anything typed into your program is <strong>text</strong>, and it needs to be converted to a <strong>number</strong>.</p>
+<p>You can use <code>int()</code> to convert the text to an <strong>integer</strong> ('integer' means 'whole number').</p>
+<p></p><figure><img src="file:///D:/Repositories/build/python/lessons/About%20Me/me-input-test.png" alt="screenshot"></figure><p></p>
+</li>
+<li>
+<p>You can also create another variable to store your calculation, and print that instead.</p>
+<p></p><figure><img src="file:///D:/Repositories/build/python/lessons/About%20Me/me-result-variable.png" alt="screenshot"></figure><p></p>
+</li>
+<li>
+<p>Finally, you can make your program easier to understand by adding a helpful message.</p>
+<p></p><figure><img src="file:///D:/Repositories/build/python/lessons/About%20Me/me-message.png" alt="screenshot"></figure><p></p>
+</li>
+</ul>
+</section>
+<section class="save" id="save-your-project-5">
+<h2 class="save" id="save-your-project-5">Save Your Project</h2>
+</section>
+<section class="challenge" id="challenge-your-age-in-dog-years">
+<h2 class="challenge" id="challenge-your-age-in-dog-years">Challenge: Your age in dog years</h2>
+<p>Write a program to ask the user their age, and then tell them their age in dog years! You can calculate a person’s age in dog years by multiplying their age by 7.</p>
+<p></p><figure><img src="file:///D:/Repositories/build/python/lessons/About%20Me/me-dog-years.png" alt="screenshot"></figure><p></p>
+<p>In Python, the symbol for <strong>multiplication</strong> is <code>*</code>, and is usually <strong>shift+8</strong> on the keyboard.</p>
+</section>
+<section class="save" id="save-your-project-6">
+<h2 class="save" id="save-your-project-6">Save Your Project</h2>
+</section>
+<section class="challenge" id="challenge-text-and-operations">
+<h2 class="challenge" id="challenge-text-and-operations">Challenge: Text and operations</h2>
+<p>You can also apply some basic operations to text; however, the behaviour isn't always what one would expect.</p>
+<p>What does the following program print to the screen? See if you can guess correctly before running the program.</p>
+<p></p><figure><img src="file:///D:/Repositories/build/python/lessons/About%20Me/me-text-calc.png" alt="screenshot"></figure><p></p>
+<p>You could even make your own patterns!</p>
+<p></p><figure><img src="file:///D:/Repositories/build/python/lessons/About%20Me/me-patterns.png" alt="screenshot"></figure><p></p>
+</section>
+<section class="save" id="save-your-project-7">
+<h2 class="save" id="save-your-project-7">Save Your Project</h2>
+<p>Finally, it is useful to get used to adding comments when writing code with notes you can refer back later to remind yourself of what a specific function or line of code does. This is also very useful if others need to use your code later.</p>
+<p>You can "comment" a single line by adding the hash symbol to the beginning of the line,and you can also comment multiple lines by adding three double quotes (<strong>"""</strong>) on each end of the comment:</p>
+<p></p><figure><img src="file:///D:/Repositories/build/python/lessons/About%20Me/me-comments.png" alt="screenshot"></figure><p></p>
+<p>Return to the introduction section and reflect on how well you understood each of the concepts listed. Are there any you would like to test further before moving to a new project?</p>
+</section>
+</section>
+</div></div><div class="col-xs-12"><div id="footer" class="clearfix"></div></div></div></div><div class="intro-question modal fade"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button><h4 class="modal-title">Hei der!</h4></div><div class="modal-body"><p>Ser ut som dette er ditt første besøk, vil du ha en omvisning?</p></div><div class="modal-footer"><button class="btn btn-success">Ja!</button><button data-dismiss="modal" class="btn btn-danger">Nei takk</button></div></div></div></div><script src="file:///D:/Repositories/build/assets/vendor.min.js"></script><svg version="1.1" width="1" height="1" class="sb-measure" style="visibility: hidden; position: absolute; top: -1px; left: -1px; width: 1px; height: 1px; overflow: hidden; pointer-events: none;"></svg><script src="file:///D:/Repositories/build/assets/script.min.js"></script></body></html>
